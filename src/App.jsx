@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from './Navbar/Navbar';
-import Login from './Login/Login'
+import Comp from './hooks/Function'
+import Funct from './hooks/Class'
 const App = () => {
   return (
     <div>
-      <Navbar />
-      <Login />
+      <Comp />
+      <Funct />
     </div>
   )
 }
